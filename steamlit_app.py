@@ -50,5 +50,7 @@ streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
 
+select * from pc_rivery_db.public.fruit_load_list
+
 
 
