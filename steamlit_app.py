@@ -85,7 +85,7 @@ streamlit.dataframe(my_data_rows)
 streamlit.write ('Thanks for adding ', add_my_fruit)
 my_cur.execute ("insert into fruit_load_list values ('from streamlit')")
 
-streamlit.stop()
+##streamlit.stop()
 
 import snowflake.connector
 
